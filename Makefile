@@ -4,5 +4,8 @@ build:
 run:
 	go run main.go
 
+setup:
+	go mod tidy
+
 clean:
 	rm -f contactBook
